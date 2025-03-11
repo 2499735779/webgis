@@ -1,14 +1,14 @@
 <template>
   <header class="header">
-    <div class="logo">京东</div> <!-- Logo 文本 -->
-    <input type="text" placeholder="搜索商品..." class="search-bar" /> <!-- 搜索框 -->
-    <button class="search-button">搜索</button> <!-- 搜索按钮 -->
+    <div class="logo">京东</div>
+    <input type="text" placeholder="搜索商品..." class="search-bar" />
+    <button class="search-button">搜索</button>
   </header>
 </template>
 
 <script>
 export default {
-  name: 'HeaderComponent', // 修改为多单词名称，符合规范
+  name: 'HeaderComponent', // 多单词名称
 };
 </script>
 
@@ -19,7 +19,7 @@ export default {
   justify-content: space-between;
   width: 100%;
   padding: 10px 20px;
-  background-color: #e2231a; /* 京东品牌色 */
+  background-color: #e2231a;
   color: white;
 }
 .logo {
@@ -32,7 +32,6 @@ export default {
   padding: 8px;
   border: none;
   border-radius: 4px;
-  font-size: 16px;
 }
 .search-button {
   padding: 8px 16px;
@@ -41,6 +40,5 @@ export default {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  font-size: 16px;
 }
 </style>

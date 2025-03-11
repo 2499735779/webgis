@@ -1,25 +1,25 @@
 <template>
   <div id="app">
-    <Header /> <!-- 引入 Header 组件 -->
-    <Carousel />
-    <Categories />
-    <Recommendations />
+    <HeaderComponent />
+    <CarouselComponent />
+    <CategoriesComponent />
+    <RecommendationsComponent />
   </div>
 </template>
 
 <script>
-import Header from './components/Header.vue';
-import Carousel from './components/Carousel.vue';
-import Categories from './components/Categories.vue';
-import Recommendations from './components/Recommendations.vue';
+import HeaderComponent from './components/Header.vue';
+import CarouselComponent from './components/Carousel.vue';
+import CategoriesComponent from './components/Categories.vue';
+import RecommendationsComponent from './components/Recommendations.vue';
 
 export default {
   name: 'App',
   components: {
-    Header,
-    Carousel,
-    Categories,
-    Recommendations,
+    HeaderComponent,
+    CarouselComponent,
+    CategoriesComponent,
+    RecommendationsComponent,
   },
 };
 </script>
@@ -33,6 +33,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #f5f5f5; /* 背景色，便于查看页面内容 */
+  background-color: #f5f5f5;
 }
 </style>
