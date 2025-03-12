@@ -21,6 +21,9 @@ export default {
     CategoriesComponent,
     RecommendationsComponent,
   },
+  mounted() {
+    console.log('App.vue 已挂载！');
+  }
 };
 </script>
 
